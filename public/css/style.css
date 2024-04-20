@@ -1,0 +1,109 @@
+.navbar-brand,.navbar li, .bottom h6{
+	color:#a020d1 !important;
+	font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+h5, .card-text, h4{
+	font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+button{
+	background-color: #a020d1 !important;
+	border-color: #a020d1 !important;
+	font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+button:hover{
+	background-color: #690392 !important;
+}
+input:focus{
+	border-color: #a020d1 !important;
+	box-shadow: 0 0 2px 2px #a020d1 !important;
+}
+.justify-content-center{
+	font-size: 1.3rem;
+}
+.navbar-brand{
+	text-decoration:overline;
+	text-transform: uppercase;
+	
+}
+.card-text i{
+	color: black;
+}
+.form{
+	text-align: center;
+}
+footer i{
+	color:#a020d1 !important;
+}
+
+.logreg{
+	padding-top: 5% !important;
+	padding-bottom: 5% !important;
+	padding-left: 20% !important;
+	padding-right: 20% !important;
+	@media (max-width: 1200px) {
+    padding-left: 10% !important;
+	padding-right: 10% !important;
+  }
+	@media (max-width: 1000px) {
+    padding-left: 1% !important;
+	padding-right: 1% !important;
+  }
+
+}
+.payment{
+	padding-top: 5% !important;
+	padding-bottom: 5% !important;
+	padding-left: 25% !important;
+	padding-right: 25% !important;
+	@media (max-width: 1200px) {
+    padding-left: 10% !important;
+	padding-right: 10% !important;
+  }
+	@media (max-width: 900px) {
+    padding-left: 1% !important;
+	padding-right: 1% !important;
+  }
+}
+.paycard{
+	background-image: url("../images/background_card.jpg");
+	overflow: hidden;
+	object-fit: cover;
+	box-shadow: 0 0 2px 2px #c4c2c6 !important;
+	transition: all 0.3s;
+}
+.paycard:hover{
+	box-shadow: 0 0 4px 4px #c4c2c6 !important;
+}
+
+.paycard:after {
+  content: "";
+  
+  /* абсолютное позиционирование */
+  position: absolute;
+  /* растягиваем на всю ширину и высоту */
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  /* добавляем полупрозрачность */
+  opacity: 0.4;
+  /* делаем чтобы полупрозрачный элемент располагался поверх основного блока */
+  z-index: 10;
+  background-image: url("../images/setka.png");
+  /* делаем чтобы картинка полностью растягивалась, необязательный стиль */
+  background-size: 100% 100%;
+}
+.card-title, .card-text{
+	z-index: 0;
+}
+
